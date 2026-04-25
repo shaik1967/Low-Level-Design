@@ -1,4 +1,6 @@
 // separating the abraction from it's implementation
+//something very specific to the class variables 
+//In adapter no change in class
 
 #include <iostream>
 #include <string>
