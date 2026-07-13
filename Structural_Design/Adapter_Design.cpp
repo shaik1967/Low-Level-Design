@@ -42,7 +42,8 @@ class AirConditionerAdapter{
             cout<<"Air Conditioner Disconnected"<<endl;
         }
 };
- int main(){
+
+int main(){
     AirConditionerAdapter *airConditionerAdapter(new AirConditionerAdapter(new AirConditioner()));
     airConditionerAdapter->Connect();
     airConditionerAdapter->Disconnect();
